@@ -1,0 +1,2077 @@
+{
+	"id": "e0d928df-e0f9-4b45-9be3-67c6a29196c5",
+	"name": "02 MPark Backend",
+	"description": null,
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [
+		"750d9ed4-d8e3-4f29-a01b-8c26ecb187c9",
+		"9aa39f50-1ad7-447b-9cb3-367b6f865d16",
+		"3299e6dc-7e24-461f-8d9d-72398215e208",
+		"ead7c7bd-ea3c-4147-a12d-458a4df53d17",
+		"cba2bad9-6d64-45f5-9e84-2138e5aae16b",
+		"20ad89bd-3952-406b-b9cc-4d2ec3471990",
+		"2ee216a5-deeb-43cb-ae2f-298c2cb98ae1",
+		"e53eb9f9-0db4-4525-b458-ddfbfcefbee7",
+		"84eb856d-a509-4f33-bc96-bb718b2886d6",
+		"7981524c-0f29-49bb-a0a1-5e66e65b77c0",
+		"1c48e166-ca1c-42cf-9bff-18240f5d576a",
+		"2dda0909-4617-4167-8f56-328b31ca3ff6",
+		"d7fbe11a-27ef-4109-8373-7e811370ee13",
+		"f9597239-71ed-4280-9f24-61d4f66a45df",
+		"fc45466a-78e8-485c-b2c3-711d6bac8041",
+		"9153e797-6597-4bc0-8b35-536937b2f3e3",
+		"8a11538d-4e93-488e-96aa-6bc2bff74be0",
+		"5e50deee-07fc-4b04-a63c-bd0285bc99b8",
+		"658ef3f6-bc80-4b27-9889-ffb4d1b4d86b",
+		"b6976651-31a0-4218-8f62-165d061e214f",
+		"306da03e-70e5-4430-9196-78b61bcc2aae",
+		"6f80a369-d233-40f4-87fb-e34a06f63b04",
+		"d19b51fd-a26b-4bee-9bf2-30644f260cc3",
+		"62c9fccf-6bbf-490c-81f8-9873437bc550",
+		"1f812944-1661-45b7-8827-72824ca8279e",
+		"8427631d-638b-410d-83db-b3eebfb32426",
+		"19170898-7f06-46b7-940a-c3a3c39ff6ef",
+		"c5b74cb2-b755-4aca-a319-cfd6ce863b73",
+		"eceb545b-7459-4f64-a438-14d6a63158f9",
+		"cb78e7a2-71e1-4dcd-9533-d08acd2cebf9",
+		"d310fa7e-129b-411a-aadd-4d44f9ddc50c",
+		"10dcbeb6-d90d-4d83-a056-bd22620ffc42",
+		"ed9ecdff-3858-4e2a-9bd8-8c3234bd6bfa",
+		"790bf474-6fbb-4e43-978e-150268fbd3c3",
+		"6ceffce4-a58f-47b9-96d9-b02dba11cce6",
+		"eea15012-f344-4474-bca1-2f5c8a169eb1",
+		"3a241691-016a-4055-8c4a-af291aa71aa3",
+		"ef712597-c1d3-4365-a9e4-aa8bac044e26",
+		"c9062f88-dc9e-42a7-ad8e-3fed242ca2c7",
+		"a5f8c2cd-fa3f-41e3-9147-791554d2f5f7",
+		"6b4a11e3-34e9-4383-8bcd-2d4d7bb554b9",
+		"c508bc44-da2a-4431-bfb1-198a3a9c932a",
+		"ef384d0c-1c49-42b4-b1ef-c29e40767a63",
+		"3bbbc823-a80d-42fc-9b48-0ff6b119b6ad",
+		"64574528-d9eb-4947-b2fb-8e3fe0b85751",
+		"79035eb9-f4e2-451e-89a4-05369ac95564",
+		"5fd8ddfc-6075-454e-87a8-57834565f204",
+		"f1cc410b-30b4-40a4-a098-281a51c89222",
+		"ac19873a-fd06-4e28-b514-0c4b63dbaf1d",
+		"a519a5ad-4b72-47f1-be7d-431ab3777a60",
+		"0d8f994d-0151-4b21-82dc-a72e26f96c12",
+		"c35dd121-b9d9-4f8f-b041-2b67b6e7a355",
+		"58b9bbce-85fb-4324-8b5a-1edbf2094572",
+		"d81549fb-e9fd-4e04-93fb-7cd63497fc15",
+		"4746bee3-e790-474f-9e23-fea3261283ac",
+		"98b0833d-405e-4538-b0c0-3592d5857325",
+		"bab78e46-e44b-44b2-9d9e-19ea9c32c568",
+		"59b07413-f068-4cbd-9e65-8b13e392d3aa",
+		"3c079fbe-e6ec-4cba-8958-e0ccdeb66c6b",
+		"f186ef4c-ff5e-4e92-ac40-03acd4693bbc",
+		"eb8b3d27-0ab1-478a-a3af-7ef67fca9996",
+		"2f41540b-6b7c-4f27-802d-20e35283e545",
+		"3fa5e573-8c4f-4497-b9f8-631d028a2fae",
+		"849228b3-0120-4f21-89fe-49227b26134e",
+		"ca66d8e2-b7e8-4ba8-a73e-be0abbc7434d",
+		"e15a13ea-e7b2-4f08-99c2-8a85515a802c",
+		"8b19964d-5ad4-435f-a382-120a9c8f74f4",
+		"db24621a-9ba0-480e-b3e7-3844e33c3e9a",
+		"febc8256-2c59-4182-a06f-f8b1330181e3",
+		"492c563d-6829-4894-a283-76ab560a5265",
+		"b7b4627d-24be-4e8a-9791-24144fe70d93",
+		"2c0e7ed8-4d40-4fe6-bf7e-c2e32a09781a"
+	],
+	"folders_order": [],
+	"protocolProfileBehavior": {},
+	"folders": [],
+	"requests": [
+		{
+			"id": "0d8f994d-0151-4b21-82dc-a72e26f96c12",
+			"name": "PUSH DEVICE CREATE",
+			"url": "{{server}}/push_devices",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n\t\"app_id\" : \"1:598409613226:android:7024ba84d7c18e183ee5d3\",\n\t\"push_id\" : \"dWX36eUHGI4:APA91bGzxIfhygwsLrhAUGlgRE4y7COEMQC2UFx57KZ7ryFcRqhiYvuLzLvcI69gLleMnNG3-uGRnDJ_4f6lzxXyZVTSvJLCttWC6BbQae1PQH46vJ98bURK3HG89WziJcpfx8HkJ6Hs\",\n\t\"os_type\" : \"android\",\n\t\"petro_station_d\":\"petrostation1673ff9f87dbadad9f99de84a00d3831\"\n\t\n}",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "10dcbeb6-d90d-4d83-a056-bd22620ffc42",
+			"name": "PARKING FEE GET LIST",
+			"url": "{{server}}/parking_fee",
+			"description": null,
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "19170898-7f06-46b7-940a-c3a3c39ff6ef",
+			"name": "TRANSACTION GET DETAIL BY CUSTOMER",
+			"url": "{{server}}/parking_transactions/transaction6953c07d8ff052ba23bcbd9477c64d21",
+			"description": null,
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{customer_token}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{customer_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "1c48e166-ca1c-42cf-9bff-18240f5d576a",
+			"name": "COMPANY GET DETAIL - l, d",
+			"url": "{{server}}/petro_companies/companycecc33b770226bae34e0491ccc52a756",
+			"description": null,
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "1f812944-1661-45b7-8827-72824ca8279e",
+			"name": "TRANSACTION GET LIST BY CUSTOMER",
+			"url": "{{server}}/parking_transactions",
+			"description": null,
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{customer_token}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{customer_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "20ad89bd-3952-406b-b9cc-4d2ec3471990",
+			"name": "CAMERA UPDATE - l",
+			"url": "{{server}}/cameras/camera311832b1220cc1651947c4227275abb1",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n\n\t\"name\":\"Camera01\",\n\t\"enabled\":true\n\n}",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "2c0e7ed8-4d40-4fe6-bf7e-c2e32a09781a",
+			"name": "VEHICLE TYPE DELETE",
+			"url": "{{server}}/vehicle_types/vehicletype4a235e0a666aeb8bd025c5f971cb31e4",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "\n{\n\t\"type\":\"car\", \n\t\"description \":\"This is a luxury Lexus car.\"\n}",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "2dda0909-4617-4167-8f56-328b31ca3ff6",
+			"name": "COMPANY DELETE - l, d",
+			"url": "{{server}}/companies/Unknown",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n\t\"user_id\":\"user58fj137f9a9j\",\n\t\"name\":\"Petrolimex Vietnam\",\n\t\"description\":\"A petro company in Vietnam\"\n}",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "2ee216a5-deeb-43cb-ae2f-298c2cb98ae1",
+			"name": "AI CAMERA REQUEST",
+			"url": "{{server}}/camera_requests",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}",
+					"enabled": false
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n\t\"plate_number\":\"63H3_1194\",\n\t\"camera_id\":\"{{camera_id}}\",\n\t\"accurate_percent\":95\n\n}",
+			"headers": "Content-Type: application/json\n//Authorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "2f41540b-6b7c-4f27-802d-20e35283e545",
+			"name": "USER DELETE - l,d",
+			"url": "{{server}}/users/usercae2ed8752b480826a2b2972bd7cc769",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n   \"last_name\": \"Elimo\"\n  \n  \n}",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "306da03e-70e5-4430-9196-78b61bcc2aae",
+			"name": "CUSTOMER PAYMENT METHOD CREATE SETUP_INTENT",
+			"url": "{{server}}/customer_payment_methods/setup_intents",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{customer_token}}"
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n  \"stripe_api_version\":\"2019-12-03\"\n}",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{customer_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "3299e6dc-7e24-461f-8d9d-72398215e208",
+			"name": "CAMERA GET DETAIL - l,d",
+			"url": "{{server}}/cameras/camera311832b1220cc1651947c4227275abb1",
+			"description": null,
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "3a241691-016a-4055-8c4a-af291aa71aa3",
+			"name": "Map GET DETAIL",
+			"url": "{{server}}/gas_prices",
+			"description": null,
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "3bbbc823-a80d-42fc-9b48-0ff6b119b6ad",
+			"name": "STATION CREATE - l,d",
+			"url": "{{server}}/stations",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n\t\"name\": \"Coffee House Phu Tho Hoa\", \n\t\"user_id\": \"userddfc2382b892fae1d4857b8cae670e73\", \n\t\"address\": \"30 Phu Tho Hoa\", \n\t\"company_id\" : \"company928c6003ace8d7d3adc0057b419e6dce\",\n\t\"timezone\":\"(GMT+07:00) Bangkok, Hanoi, Jakarta\",\n\t\"lat_position\": \"10.9229118\",\n\t\"long_position\":\"106.6643118\",\n\t\"description\": \"Coffe House Doc Lap\",\n\t\"icon\":\"https://m-park.ca/icons/mpark.ico\",\n   \"images\":[\"https://m-park.ca/images/stations1.png\"],\n\t\"gates\":[{\n\t\t\"code\":\"g01\",\n\t\t\"type\":\"in\",\n\t\t\"qr_code\":\"100\"\n\t},\n\t{\n\t\t\"code\":\"g02\",\n\t\t\"type\":\"out\",\n\t\t\"qr_code\":\"101\"\n\t}]\n\t\n}",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "3c079fbe-e6ec-4cba-8958-e0ccdeb66c6b",
+			"name": "USER GET DETAIL - l,d",
+			"url": "{{server}}/users/accountddfc2382b892fae1d4857b8cae670e73",
+			"description": null,
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "3fa5e573-8c4f-4497-b9f8-631d028a2fae",
+			"name": "VEHICLE CREATE - l,d",
+			"url": "{{server}}/vehicles",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{customer_token}}"
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\"name\":\"Ferrari Fada1\", \"type_id\":\"car\", \"plate_number\":\"adjn-x1s3-ad21\"}",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{customer_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "4746bee3-e790-474f-9e23-fea3261283ac",
+			"name": "ROLE UPDATE",
+			"url": "{{server}}/roles/c5a2152a31b111b24923807bb7894d07",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n   \"name\": \"Elimo\"\n  \n  \n}",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "492c563d-6829-4894-a283-76ab560a5265",
+			"name": "VEHICLE TYPE GET LIST",
+			"url": "{{server}}/vehicle_types",
+			"description": null,
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "58b9bbce-85fb-4324-8b5a-1edbf2094572",
+			"name": "ROLE LIST",
+			"url": "{{server}}/roles",
+			"description": null,
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "59b07413-f068-4cbd-9e65-8b13e392d3aa",
+			"name": "USER LIST - l,d",
+			"url": "{{server}}/users",
+			"description": null,
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "5e50deee-07fc-4b04-a63c-bd0285bc99b8",
+			"name": "CUSTOMER UPDATE  -l,d",
+			"url": "{{server}}/customers/customerd0a2a46f1b23b23861bb809590c2f50b",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{customer_token}}"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n  \"first_name\":\"Em\",\n  \"last_name\":\"Nguyen\"\n}",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{customer_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "5fd8ddfc-6075-454e-87a8-57834565f204",
+			"name": "STATION GET DETAIL - l, d",
+			"url": "{{server}}/petro_stations/accountddfc2382b892fae1d4857b8cae670e73",
+			"description": null,
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "62c9fccf-6bbf-490c-81f8-9873437bc550",
+			"name": "FUEL TRANSACTION STAFF CONFIRM",
+			"url": "{{server}}/filling/trans53dd27dcc1e4fa8670b6aba2b45b12be/staff_confirm",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n  \"result\":\"true\",\n  \"note\":\"ok\"\n \n}",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "64574528-d9eb-4947-b2fb-8e3fe0b85751",
+			"name": "STATION UPDATE",
+			"url": "{{server}}/stations/stationc3216ab9cc09e530734268e793364b40",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n\t\"address\": \"AEON Tan Phu 123\"\n\t\n}",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "658ef3f6-bc80-4b27-9889-ffb4d1b4d86b",
+			"name": "CUSTOMER GET DETAIL BY CUSTOMER - l,d",
+			"url": "{{server}}/customers/customerd336c642a2360077f72c4acd8fcfbffd",
+			"description": null,
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "6b4a11e3-34e9-4383-8bcd-2d4d7bb554b9",
+			"name": "GAS PRICE DELETE",
+			"url": "{{server}}/gas_prices/gaspriceef542d3dbc089213de43ad05af408253",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{customer_token}}"
+				}
+			],
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n \n  \"petro_company_id\" : \"company91d61913e3cdc8dc13050b8060910eba\",\n\t\"petro_station_id\" : \"petrostation00497e3999c921bcb094eb7d532f40f9\",\n\t\"type\" : \"A95\",\n\t\"name\" : \"Price A95\",\n\t\"amount\" : \"1\",\n\t\"amount_unit\" : \"lit\",\n\t\"price\" : \"25000\",\n\t\"start_time\" : \"2019-11-12T07:16:13Z\"\n\n}",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{customer_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "6ceffce4-a58f-47b9-96d9-b02dba11cce6",
+			"name": "MAP UPDATE",
+			"url": "{{server}}/parking_maps/map044fdf411ae721135386f955780b9e6d",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n \n\"total_lots\": 120\n\n}",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "6f80a369-d233-40f4-87fb-e34a06f63b04",
+			"name": "CUSTOMER PAYMENT METHOD GET LIST",
+			"url": "{{server}}/customer_payment_methods",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{customer_token}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"rawModeData": "{\n  \"stripe_api_version\":\"2019-12-03\"\n}",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{customer_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "750d9ed4-d8e3-4f29-a01b-8c26ecb187c9",
+			"name": "AUTHEN ADMIN -l,d",
+			"url": "{{server}}/auth",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n  \"username\":\"zentech.demo@gmail.com\",\n  \"password\":\"123456789\", \n  \"grant_type\":\"password\", \n  \"scope\":\"USER\"\n}",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "79035eb9-f4e2-451e-89a4-05369ac95564",
+			"name": "STATION LIST - l, d",
+			"url": "{{server}}/petro_stations",
+			"description": null,
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "790bf474-6fbb-4e43-978e-150268fbd3c3",
+			"name": "MAP CREATE",
+			"url": "{{server}}/gas_prices",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n \n  \"petro_company_id\" : \"companyc75708f62cf1ea8cf01591d02f9fd19d\",\n\t\"petro_station_id\" : \"petrostation50b961fadd155d6051a783019f76962c\",\n\t\"type\" : \"A95\",\n\t\"name\" : \"Price A92\",\n\t\"amount\" : \"1\",\n\t\"amount_unit\" : \"l\",\n\t\"price\" : \"21500\",\n\t\"start_time\" : \"2019-11-12T07:16:13Z\",\n\t\t\"end_time\" : \"2019-12-30T07:16:13Z\"\n\n}",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "7981524c-0f29-49bb-a0a1-5e66e65b77c0",
+			"name": "COMPANY LIST - l, d",
+			"url": "{{server}}/petro_companies",
+			"description": null,
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "8427631d-638b-410d-83db-b3eebfb32426",
+			"name": "TRANSACTION GET LIST BY ADMIN",
+			"url": "{{server}}/parking_transactions",
+			"description": null,
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "849228b3-0120-4f21-89fe-49227b26134e",
+			"name": "VEHICLE GET LIST - l,d",
+			"url": "{{server}}/vehicles",
+			"description": null,
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{customer_token}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{customer_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "84eb856d-a509-4f33-bc96-bb718b2886d6",
+			"name": "COMPANY UPDATE - l, d",
+			"url": "{{server}}/companies/company124c0dd5f1a3bf977b2d166612a2471d",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n\t\"name\":\"Aeon Tan Phu\"\n}",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "8a11538d-4e93-488e-96aa-6bc2bff74be0",
+			"name": "CUSTOMER GET DETAIL BY ADMIN - l,d",
+			"url": "{{server}}/customers/customerd0a2a46f1b23b23861bb809590c2f50b",
+			"description": null,
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "8b19964d-5ad4-435f-a382-120a9c8f74f4",
+			"name": "VEHICLE DELETE - l,d",
+			"url": "{{server}}/vehicles/vehicle82496424bd10b2d539cdf7f2c7ee1060",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{customer_token}}"
+				}
+			],
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\"name\":\"Ferrari Fada1\", \"type_id\":\"car\", \"plate_number\":\"adjn-x1s3-ad21\"}",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{customer_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "9153e797-6597-4bc0-8b35-536937b2f3e3",
+			"name": "CUSTOMER LIST - l,d",
+			"url": "{{server}}/customers",
+			"description": null,
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "98b0833d-405e-4538-b0c0-3592d5857325",
+			"name": "ROLE DELETE",
+			"url": "{{server}}/roles/facf6322e3b6ee20d4d80d194404591f",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n\"name\":\"AGENT\",\n\"description\":\"Role Agent\",\n\"permissions\":[\n \"AGENT\",\n            \"AGENT_GET_DETAIL\",\n            \"AGENT_GET_ALL\",\n            \"AGENT_UPDATE\"\n]\n}",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "9aa39f50-1ad7-447b-9cb3-367b6f865d16",
+			"name": "CAMERA GET LIST - l,d",
+			"url": "{{server}}/cameras",
+			"description": null,
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "a519a5ad-4b72-47f1-be7d-431ab3777a60",
+			"name": "STATION SEARCH",
+			"url": "{{server}}/search",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n    \"distance\":\"5.0\",\n    \"lat_position\":\"41.87811279296875\",\n    \"long_position\":\"-87.62979888916016\"\n}",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "a5f8c2cd-fa3f-41e3-9147-791554d2f5f7",
+			"name": "GAS PRICE UPDATE",
+			"url": "{{server}}/gas_prices/gaspriceef542d3dbc089213de43ad05af408253",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{customer_token}}"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n \n  \"petro_company_id\" : \"company91d61913e3cdc8dc13050b8060910eba\",\n\t\"petro_station_id\" : \"petrostation00497e3999c921bcb094eb7d532f40f9\",\n\t\"type\" : \"A95\",\n\t\"name\" : \"Price A95\",\n\t\"amount\" : \"1\",\n\t\"amount_unit\" : \"lit\",\n\t\"price\" : \"25000\",\n\t\"start_time\" : \"2019-11-12T07:16:13Z\"\n\n}",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{customer_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "ac19873a-fd06-4e28-b514-0c4b63dbaf1d",
+			"name": "STATION BY QR CODE",
+			"url": "{{server}}/stations/gates/xxyyzz",
+			"description": null,
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "b6976651-31a0-4218-8f62-165d061e214f",
+			"name": "CUSTOMER PAYMENT METHOD CREATE EPHEMERAL KEYS",
+			"url": "{{server}}/customer_payment_methods/ephemeral_keys",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{customer_token}}"
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n  \"stripe_api_version\":\"2019-12-03\"\n}",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{customer_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "b7b4627d-24be-4e8a-9791-24144fe70d93",
+			"name": "VEHICLE TYPE GET DETAIL",
+			"url": "{{server}}/vehicle_types/vehicletype4ff2244271d5d633a32a76c4633a790e",
+			"description": null,
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "bab78e46-e44b-44b2-9d9e-19ea9c32c568",
+			"name": "USER CREATE -l,d",
+			"url": "{{server}}/users/create",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n\t\"phone_number\":\"+84968386918\",\n   \"first_name\": \"Em\",\n  \"last_name\":\"Nguyen\", \n  \"email\":\"emnguyen@zentech.io\",\n  \"dob\":\"1985-05-02\"\n  \n}",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "c35dd121-b9d9-4f8f-b041-2b67b6e7a355",
+			"name": "ROLE CREATE",
+			"url": "{{server}}/roles",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n\"name\":\"AGENT\",\n\"description\":\"Role Agent\",\n\"permissions\":[\n \"AGENT\",\n            \"AGENT_GET_DETAIL\",\n            \"AGENT_GET_ALL\",\n            \"AGENT_UPDATE\"\n]\n}",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "c508bc44-da2a-4431-bfb1-198a3a9c932a",
+			"name": "Momo Notify Callback",
+			"url": "https://dev.petroapi.zensmartcity.com/api/v1/gw_momo/confirm",
+			"description": null,
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "c5b74cb2-b755-4aca-a319-cfd6ce863b73",
+			"name": "TRANSACTION GET DETAIL BY ADMIN",
+			"url": "{{server}}/parking_transactions/transaction6953c07d8ff052ba23bcbd9477c64d21",
+			"description": null,
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "c9062f88-dc9e-42a7-ad8e-3fed242ca2c7",
+			"name": "GAS PRICE GET DETAIL",
+			"url": "{{server}}/gas_prices/gaspriceef542d3dbc089213de43ad05af408253",
+			"description": null,
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "ca66d8e2-b7e8-4ba8-a73e-be0abbc7434d",
+			"name": "VEHICLE GET DETAIL - l,d",
+			"url": "{{server}}/vehicles/vehicled52356e52be30d3fa32f3bfd555fe291",
+			"description": null,
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{customer_token}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{customer_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "cb78e7a2-71e1-4dcd-9533-d08acd2cebf9",
+			"name": "PARKING FEE UPDATE",
+			"url": "{{server}}/parking_fee/parking_fee_05e332da992892993a28fbb9bc356fea",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n \n \"currency\": \"USD\",\n  \"name\": \"Car fee\",\n  \"station_id\": \"{{station_id}}\",\n  \"payment_type\": \"prepaid\",\n  \"vehicle_size\": \"4 seats\",\n  \"description\": \"Fee Setting Demo\",\n  \"fee_rules\": [\n    \n    {\n      \"from\": 1,\n      \"to\": 5,\n      \"coefficient\": \"1\",\n      \"fee_type\": \"hour\",\n      \"fees\": [\n        {\n          \"from\": \"00:00\",\n          \"to\": \"23:59\",\n          \"amount\": \"20\"\n        }\n      ]\n    },\n    \n    {\n      \"from\": 6,\n      \"to\": 7,\n      \"coefficient\": \"1\",\n      \"fee_type\": \"visit\",\n      \"fees\": [\n        {\n          \"from\": \"00:00\",\n          \"to\": \"23:59\",\n          \"amount\": \"30\"\n        }\n      ]\n    }\n  ]\n}",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "cba2bad9-6d64-45f5-9e84-2138e5aae16b",
+			"name": "CAMERA DELETE - l,d",
+			"url": "{{server}}/cameras/camera16ff78fa84c4af84922e786ef8df23aa",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n\t\"user_name\":\"tuongnguyen\",\n\t\"password\":\"123321\",\n\"rtsp_url\":\"rtsp://camera.httsmartsolutions.com:559/Streaming/channels/102\",\n\t\"name\":\"Camera02\",\n\t\"model\":\"SkyCam\",\n\t\"ip\":\"192.168.0.2\",\n\t\"petro_station_id\":\"station123njiuo1i09h0g7sla89bsj018gfjag\",\n\t\"enabled\":\"false\"\n\n}",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "d19b51fd-a26b-4bee-9bf2-30644f260cc3",
+			"name": "TRANSACTION CREATE",
+			"url": "{{server}}/parking_transactions",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{customer_token}}"
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n\t\"timezone\":\"UTC+7\",\n\t\"station_id\":\"{{station_id}}\",\n\t\"currency\":\"$\",\n\t\t\"vehicle_id\":\"vehicle89bkjjahsd8612naolf8a8s7d89a7syda68\",\n\t\t\"end_time\":\"2020-05-05T06:18:02Z\",\n\t\t\"note\":\"Some note\"\n}",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{customer_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "d310fa7e-129b-411a-aadd-4d44f9ddc50c",
+			"name": "PARKING FEE CALCULATE",
+			"url": "{{server}}/parking_fee/parking_fee_05e332da992892993a28fbb9bc356fea",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n \n \"currency\": \"USD\",\n  \"name\": \"Car fee\",\n  \"station_id\": \"{{station_id}}\",\n  \"payment_type\": \"prepaid\",\n  \"vehicle_size\": \"4 seats\",\n  \"description\": \"Fee Setting Demo\",\n  \"fee_rules\": [\n    \n    {\n      \"from\": 1,\n      \"to\": 5,\n      \"coefficient\": \"1\",\n      \"fee_type\": \"hour\",\n      \"fees\": [\n        {\n          \"from\": \"00:00\",\n          \"to\": \"23:59\",\n          \"amount\": \"20\"\n        }\n      ]\n    },\n    \n    {\n      \"from\": 6,\n      \"to\": 7,\n      \"coefficient\": \"1\",\n      \"fee_type\": \"visit\",\n      \"fees\": [\n        {\n          \"from\": \"00:00\",\n          \"to\": \"23:59\",\n          \"amount\": \"30\"\n        }\n      ]\n    }\n  ]\n}",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "d7fbe11a-27ef-4109-8373-7e811370ee13",
+			"name": "CUSTOMER SIGNUP - l,d",
+			"url": "{{server}}/customers",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n  \"phone_number\":\"+84949669075\",\n  \"debug\":\"true\"\n}",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "d81549fb-e9fd-4e04-93fb-7cd63497fc15",
+			"name": "ROLE GET DETAIL",
+			"url": "{{server}}/roles/7feb9695746a66da6725046c34fc7a73",
+			"description": null,
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "db24621a-9ba0-480e-b3e7-3844e33c3e9a",
+			"name": "VEHICLE TYPE CREATE",
+			"url": "{{server}}/vehicle_types",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "\n{\n\t\"type\":\"car\", \n\t\"description \":\"This is a luxury Lexus car.\"\n}",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "e15a13ea-e7b2-4f08-99c2-8a85515a802c",
+			"name": "VEHICLE UPDATE - l,d",
+			"url": "{{server}}/vehicles/vehicled52356e52be30d3fa32f3bfd555fe291",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{customer_token}}"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\"name\":\"Ferrari Fada122\", \"type_id\":\"car\", \"plate_number\":\"adjn-x1s3-ad21\"}",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{customer_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "e53eb9f9-0db4-4525-b458-ddfbfcefbee7",
+			"name": "COMPANY CREATE - l, d",
+			"url": "{{server}}/companies",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n\t\"user_id\":\"user58fj137f9a9j\",\n\t\"name\":\"Petrolimex Vietnam\",\n\t\"description\":\"A petro company in Vietnam\"\n}",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "ead7c7bd-ea3c-4147-a12d-458a4df53d17",
+			"name": "CAMERA CREATE - l,d",
+			"url": "{{server}}/cameras",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n\t\"user_name\":\"tuongnguyen\",\n\t\"password\":\"123321\",\n\"rtsp_url\":\"rtsp://camera.httsmartsolutions.com:559/Streaming/channels/102\",\n\t\"name\":\"Camera02\",\n\t\"model\":\"SkyCam\",\n\t\"ip\":\"192.168.0.2\",\n\t\"petro_station_id\":\"station123njiuo1i09h0g7sla89bsj018gfjag\",\n\t\"enabled\":\"false\"\n\n}",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "eb8b3d27-0ab1-478a-a3af-7ef67fca9996",
+			"name": "USER UPDATE PROFILE - l,d",
+			"url": "{{server}}/users/profile",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n   \"last_name\": \"Elimo\"\n  \n  \n}",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "eceb545b-7459-4f64-a438-14d6a63158f9",
+			"name": "PARKING FEE CREATE",
+			"url": "{{server}}/parking_fee",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "PUT",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n \n \"currency\": \"USD\",\n  \"name\": \"Car fee\",\n  \"station_id\": \"{{station_id}}\",\n  \"payment_type\": \"prepaid\",\n  \"vehicle_size\": \"4 seats\",\n  \"description\": \"Fee Setting Demo\",\n  \"fee_rules\": [\n    \n    {\n      \"from\": 1,\n      \"to\": 5,\n      \"coefficient\": \"1\",\n      \"fee_type\": \"hour\",\n      \"fees\": [\n        {\n          \"from\": \"00:00\",\n          \"to\": \"23:59\",\n          \"amount\": \"10\"\n        }\n      ]\n    },\n    \n    {\n      \"from\": 6,\n      \"to\": 7,\n      \"coefficient\": \"1\",\n      \"fee_type\": \"visit\",\n      \"fees\": [\n        {\n          \"from\": \"00:00\",\n          \"to\": \"23:59\",\n          \"amount\": \"30\"\n        }\n      ]\n    }\n  ]\n}",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "ed9ecdff-3858-4e2a-9bd8-8c3234bd6bfa",
+			"name": "PARKING FEE GET DETAIL",
+			"url": "{{server}}/parking_fee/parking_fee_05e332da992892993a28fbb9bc356fea",
+			"description": null,
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "eea15012-f344-4474-bca1-2f5c8a169eb1",
+			"name": "Map GET LIST",
+			"url": "{{server}}/gas_prices",
+			"description": null,
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "ef384d0c-1c49-42b4-b1ef-c29e40767a63",
+			"name": "NOTIFICATION GET LIST",
+			"url": "{{server}}/notifications",
+			"description": null,
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{customer_token}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{customer_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "ef712597-c1d3-4365-a9e4-aa8bac044e26",
+			"name": "MAP DELETE",
+			"url": "{{server}}/parking_maps/Unknown",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n \n\"total_lots\": 120\n\n}",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "f186ef4c-ff5e-4e92-ac40-03acd4693bbc",
+			"name": "USER GET PROFILE - l,d",
+			"url": "{{server}}/users/profile",
+			"description": null,
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "f1cc410b-30b4-40a4-a098-281a51c89222",
+			"name": "STATION DELETE - l,d",
+			"url": "{{server}}/petro_stations/accountddfc2382b892fae1d4857b8cae670e73",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "DELETE",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n   \"name\": \"Elimo\"\n  \n  \n}",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "f9597239-71ed-4280-9f24-61d4f66a45df",
+			"name": "CUSTOMER RESEND - l,d",
+			"url": "{{server}}/customers/customerd0a2a46f1b23b23861bb809590c2f50b/resend",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n  \"debug\":\"true\"\n}",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "fc45466a-78e8-485c-b2c3-711d6bac8041",
+			"name": "CUSTOMER CONFIRM - l,d",
+			"url": "{{server}}/customers/customeredcc8ef7a865671746ab8772d14dc74e/confirm",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n  \"confirm_code\":\"add0\"\n}",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "febc8256-2c59-4182-a06f-f8b1330181e3",
+			"name": "VEHICLE TYPE UPDATE",
+			"url": "{{server}}/vehicle_types/vehicletype4ff2244271d5d633a32a76c4633a790e",
+			"description": null,
+			"data": [],
+			"dataOptions": null,
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer {{admin_token}}"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "\n{\n\t\"description\":\"This is a luxury Lexus car.\"\n}",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer {{admin_token}}\n",
+			"pathVariables": {}
+		}
+	]
+}
