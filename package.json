@@ -1,0 +1,26 @@
+{
+  "name": "ci-with-postman-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nghngtran/CI-with-postman-demo.git"
+  },
+  "keywords": [
+    "Postman",
+    "CI"
+  ],
+  "author": "nghngtran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nghngtran/CI-with-postman-demo/issues"
+  },
+  "homepage": "https://github.com/nghngtran/CI-with-postman-demo#readme",
+  "dependencies": {
+    "newman": "^5.1.2"
+  }
+}
