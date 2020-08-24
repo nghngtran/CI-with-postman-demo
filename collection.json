@@ -1,45 +1,327 @@
 {
-    "variables": [],
     "info": {
-        "name": "Using data files",
-        "_postman_id": "5d604721-fce3-a131-635c-fbbf5744a169",
-        "description": "",
-        "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+        "_postman_id": "2049cb7e-7600-45cf-a372-2cfc17e03922",
+        "name": "user",
+        "description": "This collection contains APIs for user route",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
     },
     "item": [
         {
-            "name": "POST Request",
+            "name": "Register new account",
             "event": [
+                {
+                    "listen": "prerequest",
+                    "script": {
+                        "id": "6e2d2b8c-7155-47da-ae3e-70a9c65f0858",
+                        "exec": [
+                            "const firstName = pm.variables.replaceIn('{{$randomFirstName}}');\r",
+                            "const lastName = pm.variables.replaceIn('{{$randomLastName}}');\r",
+                            "\r",
+                            "const fullname = firstName + \" \" + lastName;\r",
+                            "const username = firstName + pm.variables.replaceIn('{{$randomInt}}');\r",
+                            "\r",
+                            "const email = firstName + \"@test.com\";\r",
+                            "const password = pm.variables.replaceIn('{{$randomPassword}}')\r",
+                            "\r",
+                            "pm.environment.set(\"username\", username);\r",
+                            "pm.environment.set(\"email\", email);\r",
+                            "pm.environment.set(\"fullname\", fullname);\r",
+                            "pm.environment.set(\"password\", password);\r",
+                            "\r",
+                            ""
+                        ],
+                        "type": "text/javascript"
+                    }
+                },
                 {
                     "listen": "test",
                     "script": {
-                        "type": "text/javascript",
+                        "id": "21897376-d064-4e3f-bfa5-e61ec0844182",
                         "exec": [
-                            "var jsonData = JSON.parse(responseBody);",
-                            "",
-                            "tests['Response has data value'] = jsonData.form.foo === data.value"
-                        ]
+                            "pm.test(\"Signup success\", () => {\r",
+                            "    pm.expect(pm.response.code).to.be.oneOf([201,202]);\r",
+                            "    pm.response.to.have.jsonBody(\"message\");\r",
+                            "    var jsonData = pm.response.json();\r",
+                            "    pm.expect(jsonData.message).to.include((pm.environment.get(\"email\")));\r",
+                            "    console.log(jsonData);\r",
+                            "});\r",
+                            "\r",
+                            "pm.test(\"Response time is less than 5000ms\", function () {\r",
+                            "    pm.expect(pm.response.responseTime).to.be.below(5000);\r",
+                            "});"
+                        ],
+                        "type": "text/javascript"
                     }
                 }
             ],
             "request": {
-                "url": "postman-echo.com/{{path}}",
                 "method": "POST",
-                "header": [],
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json",
+                        "type": "text"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json",
+                        "type": "text"
+                    }
+                ],
                 "body": {
-                    "mode": "formdata",
-                    "formdata": [
+                    "mode": "raw",
+                    "raw": "{\r\n    \"email\": \"{{email}}\",\r\n    \"username\": \"{{username}}\",\r\n    \"fullname\": \"{{fullname}}\",\r\n    \"password\": \"{{password}}\"\r\n}",
+                    "options": {
+                        "raw": {}
+                    }
+                },
+                "url": {
+                    "raw": "{{url}}/users",
+                    "host": [
+                        "{{url}}"
+                    ],
+                    "path": [
+                        "users"
+                    ]
+                },
+                "description": "Create new account with POST /users"
+            },
+            "response": []
+        },
+        {
+            "name": "Log in",
+            "event": [
+                {
+                    "listen": "test",
+                    "script": {
+                        "id": "a70c6d73-7539-408e-aeba-ca6353e3596f",
+                        "exec": [
+                            "pm.test(\"Log in success\", () => {\r",
+                            "    pm.expect(pm.response.code).to.be.oneOf([201,202]);\r",
+                            "    pm.response.to.have.jsonBody(\"user\");\r",
+                            "    var jsonData = pm.response.json();\r",
+                            "    pm.expect(jsonData.user.username).to.include((pm.environment.get(\"username\")));\r",
+                            "    pm.environment.set(\"token\", jsonData.token);\r",
+                            "    pm.environment.set(\"id\", jsonData.user._id);\r",
+                            "});\r",
+                            "\r",
+                            "pm.test(\"Response time is less than 5000ms\", function () {\r",
+                            "    pm.expect(pm.response.responseTime).to.be.below(5000);\r",
+                            "});\r",
+                            ""
+                        ],
+                        "type": "text/javascript"
+                    }
+                }
+            ],
+            "request": {
+                "method": "POST",
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "application/json",
+                        "type": "text"
+                    },
+                    {
+                        "key": "Content-Type",
+                        "value": "application/json",
+                        "type": "text"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\r\n    \"emailOrUsername\": \"{{username}}\",\r\n    \"password\": \"{{password}}\"\r\n}",
+                    "options": {
+                        "raw": {}
+                    }
+                },
+                "url": {
+                    "raw": "{{url}}/users/login",
+                    "host": [
+                        "{{url}}"
+                    ],
+                    "path": [
+                        "users",
+                        "login"
+                    ]
+                },
+                "description": "Login to an existed account."
+            },
+            "response": []
+        },
+        {
+            "name": "Logout",
+            "event": [
+                {
+                    "listen": "test",
+                    "script": {
+                        "id": "97006b63-aa9d-4998-82fa-6eb9767f03d0",
+                        "exec": [
+                            "pm.test(\"Log out success\", () => {\r",
+                            "    pm.expect(pm.response.code == 200);\r",
+                            "    pm.response.to.have.jsonBody(\"message\");\r",
+                            "    pm.response.to.not.have.jsonBody(\"error\");\r",
+                            "});\r",
+                            "\r",
+                            "pm.test(\"Response time is less than 5000ms\", function () {\r",
+                            "    pm.expect(pm.response.responseTime).to.be.below(5000);\r",
+                            "});"
+                        ],
+                        "type": "text/javascript"
+                    }
+                }
+            ],
+            "request": {
+                "method": "DELETE",
+                "header": [
+                    {
+                        "key": "Authorization",
+                        "value": "{{token}}",
+                        "type": "text"
+                    }
+                ],
+                "url": {
+                    "raw": "{{url}}/users/logout",
+                    "host": [
+                        "{{url}}"
+                    ],
+                    "path": [
+                        "users",
+                        "logout"
+                    ]
+                },
+                "description": "Logout a session"
+            },
+            "response": []
+        },
+        {
+            "name": "Get profile",
+            "event": [
+                {
+                    "listen": "test",
+                    "script": {
+                        "id": "d0b31e96-8b61-4875-9e19-d144f7e7b63e",
+                        "exec": [
+                            "pm.test(\"Get profile success\", () => {\r",
+                            "    pm.expect(pm.response.code == 200);\r",
+                            "    pm.response.to.have.jsonBody(\"user\");\r",
+                            "    var jsonData = pm.response.json();\r",
+                            "    pm.expect(jsonData.user.username).to.equal(pm.environment.get(\"username\"));\r",
+                            "});\r",
+                            "\r",
+                            "pm.test(\"Response time is less than 5000ms\", function () {\r",
+                            "    pm.expect(pm.response.responseTime).to.be.below(5000);\r",
+                            "});"
+                        ],
+                        "type": "text/javascript"
+                    }
+                }
+            ],
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "{{url}}/users/{{username}}",
+                    "host": [
+                        "{{url}}"
+                    ],
+                    "path": [
+                        "users",
+                        "{{username}}"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "create room",
+            "event": [
+                {
+                    "listen": "test",
+                    "script": {
+                        "id": "09d1d9ae-896b-4995-9c38-b7596722b6cc",
+                        "exec": [
+                            "var jsonData = pm.response.json();\r",
+                            "pm.environment.set(\"room-id\", jsonData.room._id);\r",
+                            "pm.environment.set(\"room-name\", jsonData.room.name);\r",
+                            ""
+                        ],
+                        "type": "text/javascript"
+                    }
+                }
+            ],
+            "request": {
+                "auth": {
+                    "type": "bearer",
+                    "bearer": [
                         {
-                            "key": "foo",
-                            "value": "{{value}}",
-                            "type": "text",
-                            "enabled": true
+                            "key": "token",
+                            "value": "{{token}}",
+                            "type": "string"
                         }
                     ]
                 },
-                "description": ""
+                "method": "POST",
+                "header": [],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\r\n    \"name\": \"{{$randomFirstName}}\",\r\n    \"admin\": \"{{username}}\",\r\n    \"members\": [{\"username\": \"{{username}}\"}],\r\n    \"isPrivate\": false,\r\n    \"password\": \"abcdefghi\"\r\n}",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                },
+                "url": {
+                    "raw": "{{url}}/rooms",
+                    "host": [
+                        "{{url}}"
+                    ],
+                    "path": [
+                        "rooms"
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "change name",
+            "request": {
+                "auth": {
+                    "type": "bearer",
+                    "bearer": [
+                        {
+                            "key": "token",
+                            "value": "{{token}}",
+                            "type": "string"
+                        }
+                    ]
+                },
+                "method": "PATCH",
+                "header": [],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\r\n    \"name\": \"{{$randomCountry}}\"\r\n}",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                },
+                "url": {
+                    "raw": "{{url}}/rooms/{{room-id}}/change-name",
+                    "host": [
+                        "{{url}}"
+                    ],
+                    "path": [
+                        "rooms",
+                        "{{room-id}}",
+                        "change-name"
+                    ]
+                }
             },
             "response": []
         }
-    ]
+    ],
+    "protocolProfileBehavior": {}
 }
