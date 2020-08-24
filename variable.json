@@ -1,0 +1,54 @@
+{
+	"id": "37bc57a6-f32a-4529-a09a-298693ce73f4",
+	"name": "Deployment",
+	"values": [
+		{
+			"key": "url",
+			"value": "https://group03-wobg-apis.online",
+			"enabled": true
+		},
+		{
+			"key": "username",
+			"value": "Franco967",
+			"enabled": true
+		},
+		{
+			"key": "email",
+			"value": "Franco@test.com",
+			"enabled": true
+		},
+		{
+			"key": "password",
+			"value": "jjG9gG_3z5rIwuD",
+			"enabled": true
+		},
+		{
+			"key": "fullname",
+			"value": "Franco Pollich",
+			"enabled": true
+		},
+		{
+			"key": "token",
+			"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZjQzMzQ1OGUyODBmYjJmODA5MWM4YzAiLCJpYXQiOjE1OTgyMzk4NDF9.MNUIx1AMdHxb9jTqrDBBO672uu8dV623w4PKeazpCws",
+			"enabled": true
+		},
+		{
+			"key": "id",
+			"value": "5f433458e280fb2f8091c8c0",
+			"enabled": true
+		},
+		{
+			"key": "room-id",
+			"value": null,
+			"enabled": true
+		},
+		{
+			"key": "room-name",
+			"value": null,
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2020-08-24T03:34:42.845Z",
+	"_postman_exported_using": "Postman/7.30.1"
+}
